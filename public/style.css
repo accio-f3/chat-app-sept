@@ -4,11 +4,11 @@ body{
 }
 
 .chatroom-container{
-    display: block; /* just for developement purpose actually it's display: none */
+    display: none; /* just for developement purpose actually it's display: none */
 }
 
 .form-username{
-    display: none; /* just for developement purpose actually it's display: block */
+    display: block; /* just for developement purpose actually it's display: block */
 }
 
 .messages{
