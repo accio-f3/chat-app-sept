@@ -12,6 +12,7 @@ const io = new Server(server); // this io should be instance that is associated 
 const PORT = 8888;
 
 io.on("connection", (socket) => {
+    console.log(socket.id);
     socket.on('secret message',(data)=>{
         io.emit('secret message',data);
     })
